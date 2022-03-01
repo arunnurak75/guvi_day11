@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                height: 100vh;
+            }
+            .table{
+                background-color: white;
+                padding: 10px;
+                max-width: 700px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            td,th{
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body style="font-family: 'Brunei';">
+        <div class="table">
+            <p><b>Health Chart</b></p>
+        <table width="600">
+            <tr>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After Eating</th>                
+            </tr>
+            <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>2 hours after eating</th>
+            </tr>
+            <tr>
+                <td>Health</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>
